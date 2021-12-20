@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "required": [
+      "meta",
+      "contents"
+    ],
+    "properties": {
+      "meta": {
+        "$ref": "meta_information.json"
+      },
+      "contents": {
+        "type": "object",
+        "$ref": "contents_data.json"
+      }
+    },
+    "$schema": "http://json-schema.org/schema#"
+}

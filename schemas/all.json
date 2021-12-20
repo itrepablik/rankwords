@@ -1,0 +1,13 @@
+{
+    "oneOf": [
+      {
+        "$ref": "contents.json"
+      },
+      {
+        "$ref": "contents_data.json"
+      },
+      {
+        "$ref": "meta_information.json"
+      }
+    ]
+  }
