@@ -35,9 +35,6 @@ type internalReferenceLoader struct {
 
 // JsonSource returns the source of the JSONLoader
 func (i internalReferenceLoader) JsonSource() interface{} {
-	// path :=  e.g: "file:///C:/tiqqe/bring_3pl_article_service/schemas/" e.g for Windows
-	// for gcp "file://internal/"
-
 	// Check if OS is Windows for local dev
 	schemaSrc := SchemaSourceProd
 	if runtime.GOOS == "windows" {
